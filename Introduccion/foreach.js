@@ -29,8 +29,7 @@ var articulos = [
     },
 ];
 
-var nombreArticulos = articulos.map(function (articulo) {
-    return articulo.nombre
-})
+articulos.forEach(function (articulo) {
 
-console.log(nombreArticulos);
+    console.log(articulo.nombre);
+});
